@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>886</width>
+    <height>545</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="5" column="2">
+        <widget class="QLineEdit" name="lineEdit_3"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="VoltLabel">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>Voltaje:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="ColorLabel">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>Color(#):</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="PosLabel">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>Posicion:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="2">
+        <widget class="QRadioButton" name="radioButton_2">
+         <property name="text">
+          <string>Insertar Al Final</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="4">
+        <widget class="QLineEdit" name="lineEdit_4"/>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLabel" name="RLabel">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>R</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="IDLabel">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+          </font>
+         </property>
+         <property name="text">
+          <string>ID:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="6">
+        <widget class="QLineEdit" name="lineEdit_7"/>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLineEdit" name="lineEdit_2"/>
+       </item>
+       <item row="6" column="2">
+        <widget class="QLineEdit" name="lineEdit_5"/>
+       </item>
+       <item row="5" column="3">
+        <widget class="QLabel" name="YLabel">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>Y</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="4">
+        <widget class="QLineEdit" name="lineEdit_6"/>
+       </item>
+       <item row="9" column="4">
+        <widget class="QPushButton" name="pushButton">
+         <property name="text">
+          <string>Mostar Neuronas</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLineEdit" name="lineEdit"/>
+       </item>
+       <item row="6" column="5">
+        <widget class="QLabel" name="BLabel">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>B</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QLabel" name="WIndowTitleLabel">
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>236</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>14</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>REGISTRO DE NEURONAS</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="3">
+        <widget class="QLabel" name="GLabel">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>G</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="2">
+        <widget class="QRadioButton" name="radioButton">
+         <property name="text">
+          <string>Insertar Al Inicio</string>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="2">
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="text">
+          <string>Insertar</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLabel" name="XLabel">
+         <property name="font">
+          <font>
+           <family>Consolas</family>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>X</string>
+         </property>
+        </widget>
+       </item>
+       <item row="7" column="0">
+        <widget class="QLabel" name="Separator">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="6">
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="text">
+          <string>Limpiar Campos</string>
+         </property>
+        </widget>
+       </item>
+       <item row="10" column="2" colspan="5">
+        <widget class="QPlainTextEdit" name="plainTextEdit">
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="9" column="6">
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="text">
+          <string>Respaldar Neuronas</string>
+         </property>
+        </widget>
+       </item>
+       <item row="8" column="6">
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="text">
+          <string>Cargar Neuronas</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>886</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuNeuronas">
+    <property name="title">
+     <string>Neuronas</string>
+    </property>
+   </widget>
+   <addaction name="menuNeuronas"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
